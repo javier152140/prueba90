@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+}
+.izquierda, .derecha{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.C{
+    height: 50vh;   
+    background-color: coral;
+    text-align: center;
+}
+.D{
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.A{
+    height: 30vh;
+    text-align: center;
+    font-size: 15px;
+    background-color: forestgreen;
+}
+.B{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-position:inside ;
+    background-color: gold;
+}
+.F{
+    flex: 0.3;
+    text-align: center;
+    list-style-position:inside ;
+    background-color: lightcoral;
+}
