@@ -14,12 +14,14 @@
     width: 50%;
 }
 .C{
-    height: 50vh;   
+    height: 50vh; 
+    width: 1100px;  
     background-color: coral;
     text-align: center;
 }
 .D{
     height: 80vh;
+    width: 1100px;
     background-color: aqua;
     display: flex;
     align-items: center;
@@ -29,10 +31,20 @@
     height: 30vh;
     text-align: center;
     font-size: 15px;
+    padding: 1.5%;
+    transition: color 1s linear;
+    border: 2px solid black;
+    border-radius: 10px;
     background-color: forestgreen;
+    box-shadow: 5px 5px 10px rgb(20, 5, 219);
+}
+.A:hover{
+    color: red;
 }
 .B{
     flex: 1;
+    width: 350px;
+    margin-left: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -40,7 +52,7 @@
     background-color: gold;
 }
 .F{
-    flex: 0.3;
+    flex: 0.35;
     text-align: center;
     list-style-position:inside ;
     background-color: lightcoral;
